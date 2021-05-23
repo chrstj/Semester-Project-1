@@ -1,0 +1,155 @@
+/* Fonts and color */
+h1 {
+    padding-left: 3em;
+    font-size: 50px;
+}
+
+h2 {
+    color: #FF8C1A;
+    font-size: 30px;      
+}
+
+h3 {
+    color:#FF8C1A;
+    font-size: 20px;
+}
+p {
+    font-size: 14px;
+}
+
+h1, h2, h3 {
+font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
+font-weight: normal; }
+
+body {
+    font-family: open sans, Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* Navigation */
+
+header {
+   background-color: #5FC1DB ;
+   height: 130px;
+   display: flex;
+   align-items: center;
+}
+
+.logo { 
+    max-width: 180px;
+}
+
+nav a {
+    text-decoration: none; 
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+/* Home Page */
+
+.welcome {
+    margin-left: 155px;
+}
+
+.museum {
+    position: relative;
+    left: 1200px;
+    bottom: 600px;
+}
+
+
+/* Visit Page */
+
+.visit {
+    margin-left: 155px;
+}
+.visit-two {
+    position: relative;
+    left: 1100px;
+    bottom: 880px;
+
+}
+body{
+    overflow-x:hidden;
+}
+
+
+/* Explore Page */
+
+.explore{
+    margin-left: 155px;
+}
+.images-explore {
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    max-width: 500px;
+    left: 1300px;
+    bottom: 600px; 
+}
+
+.science-boy {
+    margin-top: 20px;
+}
+
+
+/* Exhibitions Page */
+.cosmology {
+    margin-left: 155px;
+}
+
+.images-exhibitions {
+    position: relative;
+    left: 1200px;
+    bottom: 690px;
+}
+
+/* Events Page */
+.news {
+    margin-left: 155px;
+}
+
+.images-events {
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    max-width: 500px;
+    left: 1100px;
+    bottom: 500px; 
+}
+
+.scienceing {
+    margin-top: 20px;
+}
+
+/* Get Involved Page */
+.support {
+    margin-left: 155px;
+}
+.images-get {
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    max-width: 500px;
+    left: 1100px;
+    bottom: 550px; 
+}
+
+.cube {
+    margin-top: 20px;
+}
