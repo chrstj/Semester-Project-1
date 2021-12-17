@@ -5,12 +5,12 @@ h1 {
 }
 
 h2 {
-    color: #FF8C1A;
+    color: #eb8117;
     font-size: 30px;      
 }
 
 h3 {
-    color:#FF8C1A;
+    color:#eb8117;
     font-size: 20px;
 }
 p {
@@ -22,8 +22,11 @@ font-family: raleway, Verdana, Geneva, Tahoma, sans-serif;
 font-weight: normal; }
 
 body {
-    font-family: open sans, Verdana, Geneva, Tahoma, sans-serif
+    font-family: open sans, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    
 }
+
 
 /* Navigation */
 
@@ -60,6 +63,15 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.hamburger {
+    color: #FFFF;
+    display: none;
+}
+
+#hamburger-menu {
+    display: none;
+  }
+
 /* Home Page */
 
 .welcome {
@@ -84,9 +96,6 @@ nav a:hover {
     bottom: 880px;
 
 }
-body{
-    overflow-x:hidden;
-}
 
 
 /* Explore Page */
@@ -94,13 +103,13 @@ body{
 .explore{
     margin-left: 155px;
 }
-.images-explore {
+.images-explore  {
     flex-direction: column;
     display: flex;
     position: relative;
-    max-width: 500px;
     left: 1300px;
-    bottom: 600px; 
+    bottom: 600px;
+    width: 536px;
 }
 
 .science-boy {
@@ -153,3 +162,94 @@ body{
 .cube {
     margin-top: 20px;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 1950px) {
+ 
+    .welcome {
+        text-align: center;
+        margin-left:0px;
+}
+
+h1{
+    padding-left: 0;
+    text-align: center;
+}
+
+    .museum {
+        position: static;
+        text-align: center;
+    }
+
+    img {
+        max-width: 90%;
+}
+
+    .images-index {
+        margin-top: 50px;
+        text-align: center;
+}
+
+    .explore, .news, .support, .cosmology, .visit, .visit-two, .images-exhibitions {
+        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+ 
+}
+
+
+    .images-explore, .images-exhibitions, .images-events, .images-get, .visit-two {
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+}
+}
+
+@media screen and (max-width: 1750px) {
+    nav a {
+        margin-left: 7em;
+}
+}
+
+@media screen and (max-width: 1500px) {
+    nav a {
+        margin-left: 5em;
+}
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        display: none;
+        top: 125px;
+        padding: 100px;
+        background: #5FC1DB;   
+        margin: 0;
+        position: fixed;
+    }
+    
+      
+    .hamburger {
+        display: block;
+        padding: 20px;
+        width: 5%;
+        margin-left: 20px;
+        text-align: center;
+        font-size: 30px;
+  }
+
+    #hamburger-menu:checked ~ nav {
+        display: block;
+    }
+
+    nav li {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 18px;
+
+    }
+
+}
+
