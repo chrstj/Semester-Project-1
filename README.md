@@ -1,6 +1,6 @@
 # Semester Project 1
 
-![Community Science Museum](https://user-images.githubusercontent.com/79081491/217918178-21af5b25-eda3-446e-a5f0-11a06f0bcb93.png)
+![Community Science Museum](https://user-images.githubusercontent.com/79081491/217919684-138f0eb4-03ab-4af7-84ac-f77eb8b78289.png)
 
 A website for a ficational museum
 
